@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>註冊頁面</title>
+</head>
+<body>
+<form method="POST" action=" ${cp}/register"> <!-- cp 見OpenCloseLinstner的contextInitialized -->
+	<h1>註冊</h1>
+	<h3>請輸入您的帳號資料</h3>
+	<tr>
+	<td>姓名</td><td><input type="input" ></td>
+	</tr>
+	<tr>
+	<td>帳號</td><td><input type="input" ></td>
+	</tr>
+	<tr>
+	<td>密碼</td><td><input type="input" ></td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="submit" value="確認">
+		
+			</td>
+	</tr>
+
+		
+		</form>
+
+</body>
+</html>

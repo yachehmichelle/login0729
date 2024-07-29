@@ -1,0 +1,1 @@
+insert into account(name,username,password) values('AAA','testAAA','0000');
